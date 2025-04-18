@@ -1,0 +1,92 @@
+/* Define fundo preto e fonte branca para o corpo da página */
+body {
+    background-color: #000;
+    color: #fff;  /* Fonte branca para textos normais */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ff0000;
+}
+
+/* Título principal */
+h1 {
+    color: #ff0000; /* Título principal vermelho */
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Subtítulos */
+h2 {
+    color: #ff0000; /* Subtítulos vermelhos */
+    font-size: 1.8em;
+    margin-top: 40px;
+    border-bottom: 1px solid #ff0000;
+    padding-bottom: 5px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+/* Seções do conteúdo */
+section {
+    padding: 20px;
+}
+
+/* Estilo para as imagens e legendas */
+figure {
+    display: inline-block; /* Para as imagens ficarem lado a lado */
+    background-color: #333; /* Fundo cinza escuro */
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    text-align: center; /* Centraliza a legenda abaixo da imagem */
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Legenda das imagens */
+figcaption {
+    font-style: italic; /* Texto em itálico */
+    color: #ccc; /* Cor clara para a legenda */
+    margin-top: 10px;
+    font-size: 1em;
+    background-color: #444; /* Fundo cinza claro para a legenda */
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #fff; /* Fonte branca no rodapé */
+    border-top: 2px solid #ff0000;
+}
+/*centraliza imagem*/
+.image-container{
+    text-align: center;
+    margin: 20px 0;
+}
+.image-caption{
+    font-size: 0.9em;
+    color:#555;
+}
+/*my eggs*/
